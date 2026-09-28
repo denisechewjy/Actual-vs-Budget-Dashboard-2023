@@ -52,3 +52,36 @@ Product Revenue and Service Revenue. The date range was also adjusted to focus e
 - Design Choice: Implemented side-by-side contrasting blue bars (dark blue for Actual, light blue for Budget) grouped under a nested visual layout for straightforward comparison.
 - Data Representation: Plotted regional targets and actual results, specifically splitting figures into Income and Expense for the Central, West, North, East, and South regions.
 - Insights gained: Provides a breakdown of how much each region contributes to total revenue streams and operational costs, while highlighting that actual expenses overshot the budget across all five territories.
+
+## Formulas and Functions
+### Adding up Monthly Totals (SUMIFS formula)
+`=SUMIFS('Clean Ledger Data'!E:E,'Clean Ledger Data'!C:C,Dashboard!B9,'Clean Ledger Data'!B:B,month)`
+
+- Looks for Matches: Checks the ledger and finds rows that match the category name and the specific month selected.
+- Grabs Whole Columns: References entire columns (e.g. E:E) so it always captures new transactions automatically without breaking.
+- Formula Purpose: This formula returns the total budget/actual numbers instantly every time a different month is selected.
+
+### Absolute Variance
+`Actual - Budget`
+
+- Simple subtraction: Subtracts the budgeted amount from the actual amount to show the exact dollar difference.
+- Positive number: Under-spent on costs i.e. savings or brought in more revenue than planned.
+- Negative number: Overshot the Budget.
+- Formula Purpose: Tells you how much cash the company gained or lost compared to the Budget.
+
+### Percentage variance (% Difference)
+`Absolute Variance / Budget`
+
+- Calculates scale: Divides the dollar difference by the original budget to turn the variance into a percentage score.
+- Positive percentage: Shows the growth rate above expectations (e.g., +2.6% higher Product Revenue).
+- Negative percentage: Shows the relative overspend (e.g., -19.6% over-budget on Travel costs).
+- Formula Purpose: Tells you the size of the variance relative to the department's total scale, making it easy to compare small and large categories side-by-side.
+
+### Data Validation
+#### Month Dropdown List
+<img width="502" height="235" alt="Screenshot 2026-09-28 231447" src="https://github.com/user-attachments/assets/d17b6a57-7806-4f72-a66a-8e95ba02cddf" />
+
+- Dynamic System: User changes validated dropdown menu from example, January to June. `=SUMIFS()` checks column B:B for "June" and updates the results. Absolute and % Variance formulas automatically recalculate for the new data array.
+
+## Conclusion
+This Actual vs. Budget Dashboard serves as a financial reality check for the business. By comparing planned corporate targets against real-world spending and revenue, it maps out corporate cash flows. This interactive visualization transforms raw data ledger into actionable data, allowing teams to dig into operational departments, catch budget overruns, and adjust strategic forecasts in real time. 
