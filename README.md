@@ -27,6 +27,20 @@ Product Revenue and Service Revenue. The date range was also adjusted to focus e
 
 ## Dashboard Build
 :bar_chart: Charts:
-### Income and expense - Clustered Column
-<img width="540" height="325" alt="Screenshot 2026-09-18 110929" src="https://github.com/user-attachments/assets/93dd0009-86cc-4ea6-9e3b-cb27c74542e1" />
+### Income and expense - Clustered Column Chart
+<img width="770" height="467" alt="Screenshot 2026-09-19 201650" src="https://github.com/user-attachments/assets/b64f2b1d-ebbb-4098-a1c9-04b397304e67" />
 
+- Excel Features: Utilized an Excel clustered column PivotChart to display monthly performance.
+- Design Choice: Paired contrasting shades of blue (dark blue for Actual, light blue for Budget) to create clear, vertical visual comparisons.
+- Visual Enhancement: Added direct data labels on top of each column for clarity.
+- Insights Gained: With the interactive Month Slicer placed on the side, stakeholders can easily customize the timeframe —viewing individual months or multi-month trends—to identify where actual expenses overshot the budget.
+
+
+### Income and expense per category - Pie Chart
+<img width="784" height="355" alt="Screenshot 2026-09-28 170601" src="https://github.com/user-attachments/assets/981a3bc9-69ef-44db-aec1-c12e9fa3eca6" />
+
+- Excel Features: Designed two separate, synchronized pie PivotCharts to analyze categorical distributions side-by-side.
+- Design Choice: Mapped an identical 8-color palette across both charts to ensure a consistent visual link when comparing specific categories from chart to chart.
+- Data Representation: Plotted percentage shares for individual revenue streams and costs—including Infrastructure, Marketing, Product Revenue, Salaries, Service Revenue, Training, Travel, and Utilities.
+- Visual Enhancement: Integrates interactive left-hand Slicers (filtering by 'Type' and 'Region') allowing users to instantly filter all visualizations with a single click.
+  - Insights Gained: Pinpoints shift in operational weights, such as Infrastructure growing from a budgeted 6.08% to an actual 7.06% 
