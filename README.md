@@ -10,7 +10,8 @@ This project demonstrates the development of a dynamic Actual vs. Budget financi
 The project showcases practical Excel skills used in financial analysis and reporting, including PivotCharts, SUMIFS formulas, data validation, and slicers. By transforming raw financial data into interactive visualizations, the dashboard provides a structured way to analyze budget performance and identify areas where actual results differ from expectations.
 
 ### Dashboard File
-My Excel dashboard is in [Actual vs Budget Dashboard 2025 (version 2).xlsx](https://github.com/user-attachments/files/32199297/Actual.vs.Budget.Dashboard.2025.version.2.xlsx)
+My Excel dashboard is in [Actual vs Budget Dashboard 2025 - Updated.xlsx](https://github.com/user-attachments/files/32757313/Actual.vs.Budget.Dashboard.2025.-.Updated.xlsx)
+
 
 ### Excel Skills Used
 - :bar_chart: Charts:
