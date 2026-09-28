@@ -4,10 +4,10 @@
 
 
 ## Introduction
-This dashboard was created to show how I built a dynamic actuals vs budget dashboard from scratch for a hypothetical company's internal budget.
+## Introduction
+This project demonstrates the development of a dynamic Actual vs. Budget financial dashboard in Excel for a hypothetical company. The dashboard was designed to compare budgeted and actual income and expenses, identify financial variances, and provide an interactive view of performance across different time periods, categories, and regions.
 
-Two dashboard tabs were created in the Excel file to showcase the Excel skills used and the different charts. In the 'Dashboard' tab, variance analysis was used to determine how much of a difference there is between
-the budget and actual amounts.
+The project showcases practical Excel skills used in financial analysis and reporting, including PivotCharts, SUMIFS formulas, data validation, and slicers. By transforming raw financial data into interactive visualizations, the dashboard provides a structured way to analyze budget performance and identify areas where actual results differ from expectations.
 
 ### Dashboard File
 My Excel dashboard is in [Actual vs Budget Dashboard 2025 (version 2).xlsx](https://github.com/user-attachments/files/32199297/Actual.vs.Budget.Dashboard.2025.version.2.xlsx)
@@ -84,4 +84,6 @@ Product Revenue and Service Revenue. The date range was also adjusted to focus e
 - Dynamic System: User changes validated dropdown menu from example, January to June. `=SUMIFS()` checks column B:B for "June" and updates the results. Absolute and % Variance formulas automatically recalculate for the new data array.
 
 ## Conclusion
-This Actual vs. Budget Dashboard serves as a financial reality check for the business. By comparing planned corporate targets against real-world spending and revenue, it maps out corporate cash flows. This interactive visualization transforms raw data ledger into actionable data, allowing teams to dig into operational departments, catch budget overruns, and adjust strategic forecasts in real time. 
+This project demonstrates how Excel can be used to transform raw financial data into an interactive tool for budgeting and performance analysis. By comparing actual results against budgeted amounts across months, categories, and regions, the dashboard makes financial variances easier to identify and interpret.
+
+The use of PivotCharts, slicers, SUMIFS formulas, variance calculations, and data validation enables users to explore the data dynamically and quickly identify areas of over- or under-performance. Overall, the dashboard demonstrates the application of Excel to support financial reporting, variance analysis, and data-driven business decision-making.
